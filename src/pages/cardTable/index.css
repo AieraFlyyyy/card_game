@@ -1,0 +1,79 @@
+.cardTable {
+    height: 100vh;
+}
+
+.enemyInfoContainer {
+    background-color: #705d45;
+    padding: 5px;
+    color: white;
+}
+
+.playerInfoContainer {}
+
+.battleTable {
+    flex-direction: column;
+    background-color: #8e775b;
+}
+
+.battleAnimateContainer{
+    margin: 10px 20px;
+    border: 1px solid white;
+    height: 100px;
+}
+
+.battleInfoContainer{
+    margin: 10px 20px;
+    border: 1px solid white;
+    height: 170px;
+}
+
+.cardList {
+    background-color: #8e775b;
+    border-top: 2px solid white;
+    padding: 5px 10px;
+    height: 130px;
+}
+
+.enemyLifeInfo {
+    padding: 0 20px;
+}
+
+.debuff {
+    margin-right: 10px;
+}
+
+.buff {
+    margin-right: 10px;
+}
+
+.debuffIcon {
+    color: firebrick;
+}
+
+.buffIcon {
+    color: greenyellow;
+    transform: rotate(180deg);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    display: flex;
+    flex: 1;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexAlignCenter {
+    display: flex;
+    align-items: center;
+}
+
+.flexJustifyEnd {
+    justify-content: flex-end;
+}

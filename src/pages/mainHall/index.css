@@ -1,0 +1,24 @@
+.ModeListContainer{
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ModeText{
+    font-size: 14px;
+    color: aqua;
+}
+.ModeTextSelected{
+    font-size: 30px;
+}
+
+
+.pleaseWait{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    font-size: 40px;
+    color: black;
+}
